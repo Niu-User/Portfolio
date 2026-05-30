@@ -94,13 +94,16 @@ function App() {
                 <a href="mailto:mail.jiteshkr@gmail.com" className="social-link" aria-label="Email" title="Email">
                   <Mail size={20} />
                 </a>
-                <a href="tel:+919504189842" className="social-link" aria-label="Phone" title="Phone">
+
+                {/*  here is telephone link  */}
+                
+                {/* <a href="tel:+919504189842" className="social-link" aria-label="Phone" title="Phone">
                   <Phone size={20} />
-                </a>
-                <a href="https://github.com/" className="social-link" aria-label="GitHub" title="GitHub" target="_blank" rel="noopener noreferrer">
+                </a> */}
+                <a href="https://github.com/jitesh-kr" className="social-link" aria-label="GitHub" title="GitHub" target="_blank" rel="noopener noreferrer">
                   <Code2 size={20} />
                 </a>
-                <a href="https://linkedin.com/" className="social-link" aria-label="LinkedIn" title="LinkedIn" target="_blank" rel="noopener noreferrer">
+                <a href="www.linkedin.com/in/jitesh-kr" className="social-link" aria-label="LinkedIn" title="LinkedIn" target="_blank" rel="noopener noreferrer">
                   <ExternalLink size={20} />
                 </a>
               </div>
@@ -141,7 +144,7 @@ function App() {
             <div className="about-grid">
               <div className="about-text">
                 <p>
-                  I'm a 2nd-year Computer Science Engineering student at{' '}
+                  I'm a 3rd-year Computer Science Engineering student at{' '}
                   <strong>Parul University</strong> with a deep interest in full-stack 
                   development and problem-solving. Currently leveraging personal projects 
                   in Java and Web Technologies to sharpen my skills.
@@ -382,9 +385,9 @@ function App() {
                 <a href="mailto:mail.jiteshkr@gmail.com" className="contact-item">
                   <Mail size={20} /> mail.jiteshkr@gmail.com
                 </a>
-                <a href="tel:+919504189842" className="contact-item">
+                {/* <a href="tel:+919504189842" className="contact-item">
                   <Phone size={20} /> +91 95041 89842
-                </a>
+                </a> */}
                 <span className="contact-item">
                   <MapPin size={20} /> Vadodara, Gujarat, India 391760
                 </span>
@@ -408,7 +411,8 @@ function App() {
       {/* Footer */}
       <footer className="footer">
         <div className="container">
-          <p>© 2026 Jitesh Kumar. Built with React + Vite ⚡</p>
+          <p>© 2026 Jitesh Kumar. </p>
+           {/* Built with React + Vite ⚡ */}
         </div>
       </footer>
     </>
