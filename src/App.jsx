@@ -78,7 +78,7 @@ function App() {
               </h1>
               <p className="hero-title">Full-Stack Developer & CS Student</p>
               <p className="hero-desc">
-                2nd-year Computer Science Engineering student passionate about 
+                3rd-year Computer Science Engineering student passionate about 
                 full-stack development and problem-solving. Building efficient 
                 solutions with Java, JavaScript, and modern web technologies.
               </p>
